@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-image: url("https://images3.alphacoders.com/101/thumb-1920-1013373.png");
+  background-size: 100%;
+  background-position: top;
+  background-origin: content-box;
+  display: flex;
+  padding-top: 5rem;
+  justify-content: center;
+  overflow: hidden;
+  margin: 0;
+}
+
+.row {
+  display: flex;
+  width: 1150px;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.col-header {
+  width: 180px;
+  box-shadow: 4px 4px 9px rgba(198, 198, 198, 0.36);
+  border-radius: 20px;
+  padding: 0.8rem 1rem;
+  color: #fff;
+}
+
+.item {
+  width: 180px;
+  height: 70px;
+  /*border: 1px solid #eee;*/
+  box-shadow: 4px 4px 9px rgba(198, 198, 198, 0.36);
+  border-radius: 20px;
+  background-image: url("https://images8.alphacoders.com/992/thumb-1920-992945.png");
+  background-position: center;
+  background-size: cover;
+  padding: 0.8rem 1rem;
+  color: #828282;
+  text-align: center;
+  cursor: grab;
+}
+
+.item:active {
+  cursor: grabbing;
+}
+
+.placeholder {
+  width: 180px;
+  height: 70px;
+}
+
+.season12 {
+  background: linear-gradient(90deg, #4b0082 0%, #9400d3 100%);
+}
+
+.season34 {
+  background: linear-gradient(90deg, purple 0%, violet 120%);
+}
+
+.season56 {
+  background: linear-gradient(90deg, #9370db 0%, #ff00ff 170%);
+}
+
+.season78 {
+  background: linear-gradient(90deg, #ff85e4 0%, #229efd 179.25%);
+}
+
+.season910 {
+  background: linear-gradient(90deg, #4169e1 0%, #48d1cc 100%);
+}
+
+.season1112 {
+  background: linear-gradient(90deg, #209cff 0%, #3cb371 100%);
+}
+
+.hold {
+ border: 1px solid lightgrey;
+  opacity: 0.5;
+}
+
+.hide {
+  display: none;
+}
+
+.hovered {
+  border-radius: 20px ;
+  border: 2px solid blue;
+}
